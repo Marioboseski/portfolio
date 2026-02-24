@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .container {
+    @apply w-full max-w-[1250px] mx-auto
+  }
+  .JobFinderApp-Images {
+    @apply w-full max-w-[150px] min-h-24
+  }
+  .JobFinderApp-Tags {
+    @apply border border-green-500 rounded-md flex-auto p-1 text-center
+  }
+  .JobFinderApp-LiveLinks {
+    @apply flex flex-col gap-2 text-sm 
+  }
+  .ProjectDetails-links {
+    @apply flex justify-center items-center gap-2
+  }
+  .ProjectDetails-live-link {
+    @apply border-b border-green-500 text-blue-500
+  }
+  .formInputs {
+    @apply flex flex-col items-start w-full max-w-[500px]
+  }
+  .contactpage-input {
+    @apply text-white bg-black w-full p-1 text-xl border-2 border-green-500 rounded-md
+  }
+}
+
+@layer base {
+  body{
+    @apply bg-[#101010] text-white
+  }
+}

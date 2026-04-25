@@ -20,7 +20,7 @@ const AboutPage = () => {
               <p className="text-3xl md:text-4xl">Who am i?</p>
               <p className="border-2 border-blue-500 bg-blue-900 rounded-md p-2 text-lg md:p-3 md:text-xl">Mario Boseski</p>
             </div>
-            <p className="text-center md:text-lg">Hello! I'm Mario Boseski, a frontend web developer</p>
+            <p className="text-center md:text-lg">Hello! I am Mario Boseski, Frontend Web Developer</p>
             <div className="flex items-center gap-2 border-b border-gray-300 p-2" >
               <p className="text-3xl font-bold">+3</p>
               <p className="text-gray-300 md:text-lg">Years of experience</p>

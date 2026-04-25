@@ -13,7 +13,7 @@ const HomePage = () => {
         <div className="flex flex-col justify-center items-center gap-2 border-2 rounded-lg border-green-500 p-4 w-full md:flex-row-reverse md:gap-3 lg:justify-around ">
           <img src={MyFoto} alt="my-foto" className="w-full max-w-[320px] rounded-xl transition-all duration-200 hover:scale-105" />
           <div className="flex flex-col text-center justify-center  gap-3">
-            <p className="text-green-500 text-5xl md:text-6xl">Frontend developer</p>
+            <p className="text-green-500 text-5xl md:text-6xl">Frontend Developer</p>
             <p className="md:text-lg">Specializing in modern web technologies</p>
             <p className="md:text-lg">Building modern websites, web applications and business products</p>
             <div className="flex gap-2 justify-center items-center  md:gap-3">

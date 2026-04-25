@@ -49,7 +49,7 @@ const projectsData = [
     image: BankDashboard,
     tags: ["Web App", "Mobile", "Bank"],
     gallery: [BankDashboard, BankDeposit, BankProfile],
-    features: ["Clean UI", "track balance", "Responsive"],
+    features: ["Clean UI", "Track Balance", "Responsive"],
     liveUrl: "https://marioboseski.github.io/bank-dashboard/",
     githubUrl: "https://github.com/Marioboseski/bank-dashboard.git",
     liveLabel: "Bank Platform",

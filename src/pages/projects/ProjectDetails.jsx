@@ -26,7 +26,7 @@ const ProjectDetails = () => {
 
           <div className="flex flex-wrap justify-center items-center gap-2">
             {project.gallery.map((img, index) => (
-              <img key={index} src={img} alt="project-img" className="w-full max-w-[150px] min-h-28 lg:max-w-[350px] lg:min-h-44" />
+              <img key={index} src={img} alt="project-img" className="w-full max-w-[150px] min-h-28 lg:max-w-[350px] lg:max-h-40" />
             ))}
           </div>
 

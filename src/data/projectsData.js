@@ -1,54 +1,60 @@
-import JobFinderImg from "../assets/JobFinder-Img.png";
-import JobFinderProfile from "../assets/JobFinder-Profile-Img.png";
-import JobFinderBookmarks from "../assets/JobFinder-Bookmarks-Img.png";
+import SocialMediaImg from "../assets/social-media.png";
+import SocialMediaExpl from "../assets/social-media-expl.png";
+import SocialMediaMess from "../assets/social-media-mess.png";
+import SocialMediaProf from "../assets/social-media-prof.png";
+import ChatAppImg from "../assets/chat-app.png";
+import ChatAppResp from "../assets/chat-app-resp.png";
+import BankDashboard from "../assets/bank-dashboard.png";
+import BankDeposit from "../assets/bank-deposit.png";
+import BankProfile from "../assets/bank-profile.png";
 
 const projectsData = [
   {
-    slug: "job-finder-app",
-    title: "Job Finder Platform",
-    image: JobFinderImg,
-    tags: ["Web App", "Mobile", "JobFinder"],
-    shortDescription: "Find jobs, connect with people",
-    longDescription: "A full-stack job search platform that allows users to login and then search, save and menage job listings with a clean and intuitive UI",
-    gallery: [JobFinderImg, JobFinderProfile, JobFinderBookmarks],
-    features: ["Fully Responsive", "Clean UI", "Easy to use"],
-    liveUrl: "https://marioboseski.github.io/job-finder-app-react/",
-    githubUrl: "https://github.com/Marioboseski/job-finder-app-react.git",
-    liveLabel: "Job Finder App",
+    slug: "social-media",
+    title: "Social Media Platform",
+    image: SocialMediaImg,
+    tags: ["Modern", "Mobile", "SocialMedia"],
+    shortDescription: "Find, chat, connect with people, see stories",
+    longDescription: "Social media(instagram-like) built with React. Allow users to save and like posts, open stories and a lot more. The social media is fully responsive and modern web development practices are used.",
+    gallery: [SocialMediaExpl, SocialMediaMess, SocialMediaProf],
+    features: ["Fully Responsive", "Clean UI", "Modern design"],
+    liveUrl: "https://marioboseski.github.io/social-media/",
+    githubUrl: "https://github.com/Marioboseski/social-media.git",
+    liveLabel: "Social Media",
     githubLabel: "Github Repository",
-    stack: ["HTML", "CSS", "JavaScript", "React"],
+    stack: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
   },
 
   {
-    slug: "personal-finance-tracker",
-    title: "Personal Finance Tracker",
-    shortDescription: "Calculate incomes and expenses, track balance",
-    longDescription: "Web app that is used to track incomes and expeneses. Calculate balance. Added incomes and expenses are saved in the app. Fully responsive Web-app and easy to use.  ",
-    image: JobFinderImg,
-    tags: ["Web App", "Mobile", "Finance"],
-    gallery: [JobFinderImg, JobFinderProfile, JobFinderBookmarks],
-    features: ["Clean UI", "Calculation", "Balance"],
-    liveUrl: "https://marioboseski.github.io/Personal-Finance-Tracker/",
-    githubUrl: "https://github.com/Marioboseski/Personal-Finance-Tracker.git",
-    liveLabel: "Personal Finance Tracker",
+    slug: "chat-app",
+    title: "Chat App",
+    shortDescription: "join rooms together with a friend, chat and have fun",
+    longDescription: "Real-time chat application that enables users to join chat rooms with username and communicate with other users in the same room. Real-time handling and showcasing practical full-stack development skills.",
+    image: ChatAppImg,
+    tags: ["Chat App", "Modern", "Full-Stack"],
+    gallery: [ChatAppImg, ChatAppResp],
+    features: ["Join", "Chat", "Fully responsive"],
+    liveUrl: "https://chat-app-mario.netlify.app/",
+    githubUrl: "https://github.com/Marioboseski/chat-app.git",
+    liveLabel: "Chat App",
     githubLabel: "Github Repository",
-    stack: ["JavaScript", "HTML", "CSS"],
+    stack: ["TypeScript", "React", "Node.js", "Express", "Zustand", "Tailwind"],
   },
 
   {
-    slug: "country-info-app",
-    title: "County Info App",
-    shortDescription: "Fetches real-time data, displays informations",
-    longDescription: "Web app that fetches real-time data about the entered country and displays informations. Fully responsive and fast application",
-    image: JobFinderImg,
-    tags: ["Web App", "Mobile", "API"],
-    gallery: [JobFinderImg, JobFinderProfile, JobFinderBookmarks],
-    features: ["Clean UI", "CountryApp", "Search"],
-    liveUrl: "https://marioboseski.github.io/Country-Info-App/",
-    githubUrl: "https://github.com/Marioboseski/Country-Info-App.git",
-    liveLabel: "Country info App",
+    slug: "bank-dashboard",
+    title: "Bank Platform",
+    shortDescription: "Deposit money, pay bill, track transactions",
+    longDescription: "Bank Platform - web application that help users to quickly menage transactions, deposit money, pay bill, track balance, see profile and easily navigate through the app. Fully responsive.",
+    image: BankDashboard,
+    tags: ["Web App", "Mobile", "Bank"],
+    gallery: [BankDashboard, BankDeposit, BankProfile],
+    features: ["Clean UI", "track balance", "Responsive"],
+    liveUrl: "https://marioboseski.github.io/bank-dashboard/",
+    githubUrl: "https://github.com/Marioboseski/bank-dashboard.git",
+    liveLabel: "Bank Platform",
     githubLabel: "Github Repository",
-    stack: ["JavaScript", "HTML", "CSS"],
+    stack: ["JavaScript", "React", "Tailwind"],
   }
 
 ];
